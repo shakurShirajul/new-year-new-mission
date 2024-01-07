@@ -1,26 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-/* primary style */
 * {
-    /* margin: 0; */
-    /* padding: 0; */
-}
-
-.txt-primary {
-    color: #FFFF;
+    margin: 0;
     font-family: Merriweather;
 }
 
-/* --- Banner Section --- */
 
+/* --- Banner Section --- */
 .banner {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border-radius: 16px;
-    padding: 177px 344px;
     margin: 50px 140px 120px 140px;
 }
+
+.banner-content {
+    padding: 233px 344px 177px 344px;
+}
+
+.banner-content>h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-content>h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
 
 .banner-msg-1 {
     text-align: center;
@@ -37,6 +50,9 @@
 }
 
 /* --- Discount Section --- */
+.discount {
+    border: 1px solid green;
+}
 
 .discount-content>h1 {
     color: #F00;
@@ -58,7 +74,7 @@
     margin-bottom: 16px;
 }
 
-.discount-content>h4{
+.discount-content>h4 {
     color: #070211;
     text-align: center;
     font-family: Inter;
@@ -66,19 +82,35 @@
     font-weight: 700;
     margin-bottom: 48px;
 }
-.new-year{
+
+.new-year {
     display: flex;
     justify-content: center;
 }
 
 /* --- Welcome Section --- */
-.welcome{
+.welcome {
     border: 1px solid red;
 }
-.welcome-content{
+
+.welcome-content {
     border: 1px solid blue;
     background-image: url('../images/Vectorrr.png');
     background-repeat: no-repeat;
-    margin: 120px auto;
+    background-position: center;
     padding: 326px 497px 214px 126px;
+}
+
+.welcome-content>h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.welcome-content>p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
 }
