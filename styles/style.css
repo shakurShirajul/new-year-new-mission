@@ -130,7 +130,6 @@
     font-size: 32px;
     font-weight: 600;
     padding: 100px 385px 48px 385px;
-    border: 1px solid red;
 }
 
 .location-content span {
@@ -150,66 +149,39 @@
     margin-top: 48px;
 }
 
-.coming-soon{
+/* --- Coming Soon Section Start --- */
+.coming-soon {
     display: flex;
-    /* justify-content: space-between; */
     margin: 0px 140px;
     border: 1px solid red;
 }
-.column-1{
-    border: 1px solid green;
+
+.column-1 {
     text-align: left;
     margin: 104px 70px 104px 0px;
 }
-.column-1>h3{
-    color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.column-1>h2{
-    color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
-}
-.column-1>p{
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-}
-.column-2{
-    /* border: 1px solid pink; */
-}
-.column-2>h2{
+
+.column-1>h3 {
     color: #F00;
     font-family: Inter;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-size: 24px;
+    font-weight: 500;
 }
-.column-2>p{
+
+.column-1>h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.column-1>p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 160% */
 }
-.column-3{
-    border: 1px solid yellow;
-    margin: 112px 0px 0px 118px;
-}
+
 .column-2{
     border-radius: 50%;
     border: 10px solid red;
@@ -218,6 +190,23 @@ line-height: 32px; /* 160% */
     align-items: center;
 }
 .column-2 img{
-    margin: 20px;
+    margin: 18px;
+}
+.column-3 {
+    margin: 104px 0px 0px 118px;
+}
+
+.column-3>h2 {
+    color: red;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.column-3>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
 }
 
