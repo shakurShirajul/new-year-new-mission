@@ -210,3 +210,46 @@
     font-weight: 400;
 }
 
+/* --- Holiday Sale Start --- */
+.holiday-sale{
+    margin: 120px 140px;
+    border: 1px solid red;
+}
+.holiday-sale-content>h3{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday-sale-content>h2{
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holiday-sale-content span{
+    color: red;
+}
+.holiday-sale-content>p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.holiday-img{
+    /* display: flex;
+    justify-content: right; */
+    /* z-index: -1; */
+    /* display: ; */
+    display: flex;
+    justify-content: right;
+}
+#girl-img{
+    text-align: right;
+}
+#discount-img{
+    position: absolute;
+    z-index: 1;
+}
