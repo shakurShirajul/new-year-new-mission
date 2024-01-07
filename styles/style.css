@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Merriweather;
+    /* font-family: Merriweather; */
 }
 
 
@@ -87,9 +87,11 @@
 .welcome-content {
     margin: 126px 39px 214px 126px;
 }
-.welcome>img{
+
+.welcome>img {
     margin: 68px 138px 67px 0px;
 }
+
 .welcome-content>h1 {
     color: #FFF;
     font-size: 64px;
@@ -113,3 +115,109 @@
     margin-top: 48px;
     margin-left: 32px;
 }
+
+/* --- Location Section --- */
+.location {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    margin: 0px 140px;
+    height: 482px;
+}
+
+.location-content {
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 100px 385px 48px 385px;
+    border: 1px solid red;
+}
+
+.location-content span {
+    color: #F00;
+}
+
+.location-content button {
+    border-radius: 8px;
+    background: #F00;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    margin-top: 48px;
+}
+
+.coming-soon{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 0px 140px;
+    border: 1px solid red;
+}
+.column-1{
+    border: 1px solid green;
+    text-align: left;
+    margin: 104px 70px 104px 0px;
+}
+.column-1>h3{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.column-1>h2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.column-1>p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.column-2{
+    /* border: 1px solid pink; */
+}
+.column-2>h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.column-2>p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.column-3{
+    border: 1px solid yellow;
+    margin: 112px 0px 0px 118px;
+}
+.column-2{
+    border-radius: 50%;
+    border: 10px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column-2 img{
+    margin: 20px;
+}
+
