@@ -2,6 +2,7 @@
 
 * {
     margin: 0;
+    padding: 0;
     font-family: Merriweather;
 }
 
@@ -10,7 +11,7 @@
 .banner {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     border-radius: 16px;
     margin: 50px 140px 120px 140px;
 }
@@ -24,6 +25,7 @@
     text-align: center;
     font-size: 32px;
     font-weight: 400;
+    margin-bottom: 16px;
 }
 
 .banner-content>h1 {
@@ -32,45 +34,28 @@
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
+    margin-bottom: 0px;
 }
 
 
-.banner-msg-1 {
-    text-align: center;
-    font-size: 32px;
-    font-weight: 400;
-    margin-bottom: 16px;
-}
-
-.banner-msg-2 {
-    margin-top: 0px;
-    text-align: center;
-    font-size: 72px;
-    font-weight: 900;
-}
 
 /* --- Discount Section --- */
-.discount {
-    border: 1px solid green;
-}
-
 .discount-content>h1 {
-    color: #F00;
+    color: red;
     text-align: center;
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
     margin-bottom: 48px;
+
 }
 
 .discount-content>p {
-    color: #F00;
+    color: red;
     text-align: center;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     margin-bottom: 16px;
 }
 
@@ -90,20 +75,23 @@
 
 /* --- Welcome Section --- */
 .welcome {
-    border: 1px solid red;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin: 120px 140px 120px 140px;
+    height: 600px;
+    display: flex;
 }
 
 .welcome-content {
-    border: 1px solid blue;
-    background-image: url('../images/Vectorrr.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 326px 497px 214px 126px;
+    margin: 126px 39px 214px 126px;
 }
-
+.welcome>img{
+    margin: 68px 138px 67px 0px;
+}
 .welcome-content>h1 {
     color: #FFF;
-    font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
 }
@@ -113,4 +101,15 @@
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
+}
+
+.welcome button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 0;
+    margin-top: 48px;
+    margin-left: 32px;
 }
