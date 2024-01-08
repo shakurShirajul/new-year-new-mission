@@ -182,16 +182,18 @@
     font-weight: 400;
 }
 
-.column-2{
+.column-2 {
     border-radius: 50%;
     border: 10px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.column-2 img{
+
+.column-2 img {
     margin: 18px;
 }
+
 .column-3 {
     margin: 104px 0px 0px 118px;
 }
@@ -211,45 +213,157 @@
 }
 
 /* --- Holiday Sale Start --- */
-.holiday-sale{
+.holiday-sale {
     margin: 120px 140px;
     border: 1px solid red;
 }
-.holiday-sale-content>h3{
+
+.holiday-sale-content>h3 {
     color: #070211;
     text-align: center;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
 }
-.holiday-sale-content>h2{
+
+.holiday-sale-content>h2 {
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
 }
-.holiday-sale-content span{
+
+.holiday-sale-content span {
     color: red;
 }
-.holiday-sale-content>p{
+
+.holiday-sale-content>p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
+    margin-bottom: 64px;
 }
-.holiday-img{
-    /* display: flex;
-    justify-content: right; */
-    /* z-index: -1; */
-    /* display: ; */
+
+#girl-img {
+    position: absolute;
+    text-align: right;
+}
+
+#discount-img {
+    position: absolute;
+    z-index: 1;
+    margin: 76px 276px 50px 153px;
+}
+
+.holiday-footer {
+    background-image: url('../images/Rectangle\ 2.png');
+    height: 229px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 100% 100%; */
+    margin-top: 0;
+}
+
+#gift-box {
+    position: absolute;
+}
+
+.holiday-img-2 {
     display: flex;
     justify-content: right;
 }
-#girl-img{
-    text-align: right;
+
+/* ---Porfilio Section Start */
+
+.portfolio {
+    border: 1px solid red;
+    margin: 0 140px;
 }
-#discount-img{
-    position: absolute;
-    z-index: 1;
+
+.portfolio-content>h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.portfolio-content>h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.portfolio-content>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.img-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+/* Newslater */
+
+.newslater {
+    border: 1px solid red;
+    margin: 120px 140px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.newslater-content {
+    text-align: center;
+}
+
+.newslater-content>img {
+    margin-bottom: 40px;
+}
+
+.newslater-content>h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.newslater-content>p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.newslater input {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 267px 25px 30px;
+    border-radius: 50px;
+background: #FFF;
+border: 0;
+}
+.newslater button{
+    border-radius: 0px 50px 50px 0px;
+background: #F00;
 }
