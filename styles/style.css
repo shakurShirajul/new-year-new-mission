@@ -326,6 +326,7 @@
 
 .newslater-content {
     text-align: center;
+    margin: 80px 212px;
 }
 
 .newslater-content>img {
@@ -350,6 +351,12 @@
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.subscribe-newslater {
+    display: flex;
+    justify-content: center;
 }
 
 .newslater input {
@@ -359,11 +366,52 @@
     font-size: 18px;
     font-weight: 400;
     padding: 25px 267px 25px 30px;
-    border-radius: 50px;
-background: #FFF;
-border: 0;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    border: 0;
 }
-.newslater button{
+
+.newslater button {
     border-radius: 0px 50px 50px 0px;
-background: #F00;
+    padding: 24px 56px;
+    border: 0;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* --- Footer Section Start */
+.footer-content {
+    padding: 120px 140px;
+    background-color: #070211;
+}
+
+.footer-content p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+.footer-text{
+    display: flex;
+    gap: 600px;
+}
+.footer-content hr{
+    margin: 50px 0px;
+    background: rgba(255, 255, 255, 0.15);
+}
+.social-media{
+    text-align: center;
+}
+.social-media img{
+    margin-right: 24px;
 }
