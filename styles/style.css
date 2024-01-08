@@ -3,9 +3,12 @@
 * {
     margin: 0;
     padding: 0;
-    /* font-family: Merriweather; */
+    font-family: Merriweather;
 }
 
+button {
+    cursor: pointer;
+}
 
 /* --- Banner Section --- */
 .banner {
@@ -153,7 +156,6 @@
 .coming-soon {
     display: flex;
     margin: 0px 140px;
-    border: 1px solid red;
 }
 
 .column-1 {
@@ -215,15 +217,14 @@
 /* --- Holiday Sale Start --- */
 .holiday-sale {
     margin: 120px 140px;
-    border: 1px solid red;
 }
 
 .holiday-sale-content>h3 {
-    color: #070211;
     text-align: center;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 16px;
 }
 
 .holiday-sale-content>h2 {
@@ -231,6 +232,7 @@
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
+    margin-bottom: 26px;
 }
 
 .holiday-sale-content span {
@@ -262,7 +264,6 @@
     height: 229px;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: 100% 100%; */
     margin-top: 0;
 }
 
@@ -278,7 +279,6 @@
 /* ---Porfilio Section Start */
 
 .portfolio {
-    border: 1px solid red;
     margin: 0 140px;
 }
 
@@ -315,25 +315,24 @@
     margin-bottom: 24px;
 }
 
-/* Newslater */
+/* Subscribe Newsletter */
 
-.newslater {
-    border: 1px solid red;
+.newsletter {
     margin: 120px 140px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
 }
 
-.newslater-content {
+.newsletter-content {
     text-align: center;
-    margin: 80px 212px;
+    padding: 80px 212px;
 }
 
-.newslater-content>img {
+.newsletter-content>img {
     margin-bottom: 40px;
 }
 
-.newslater-content>h1 {
+.newsletter-content>h1 {
     color: #070211;
     text-align: center;
     font-family: Merriweather;
@@ -345,7 +344,7 @@
     margin-bottom: 22px;
 }
 
-.newslater-content>p {
+.newsletter-content>p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
@@ -354,12 +353,12 @@
     margin-bottom: 48px;
 }
 
-.subscribe-newslater {
+.subscribe-newsletter {
     display: flex;
     justify-content: center;
 }
 
-.newslater input {
+.newsletter input {
     color: rgba(7, 2, 17, 0.30);
     text-align: center;
     font-family: Inter;
@@ -371,7 +370,7 @@
     border: 0;
 }
 
-.newslater button {
+.newsletter button {
     border-radius: 0px 50px 50px 0px;
     padding: 24px 56px;
     border: 0;
@@ -380,10 +379,7 @@
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
 }
 
 /* --- Footer Section Start */
@@ -396,22 +392,72 @@
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 40px;
-    /* 166.667% */
 }
-.footer-text{
+
+.footer-text {
     display: flex;
     gap: 600px;
 }
-.footer-content hr{
+
+.footer-content hr {
     margin: 50px 0px;
     background: rgba(255, 255, 255, 0.15);
 }
-.social-media{
+
+.social-media {
     text-align: center;
 }
-.social-media img{
+
+.social-media img {
     margin-right: 24px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+}
+
+/* --- Hover Effect --- */
+.product-card {
+    position: relative;
+}
+
+.product-title {
+    font-size: 40px;
+    font-weight: 500px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.product-description {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.product-info {
+    visibility: hidden;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    background-color: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-card:hover .product-info{
+    visibility: visible;
 }
